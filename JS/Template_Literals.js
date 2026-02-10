@@ -13,3 +13,19 @@ const texto = `
 `;
 
 console.log(texto);
+
+//Ejercicios
+//1
+
+const texto1 = {
+    nombre: 'Cristian',
+    edad: 25,
+    profesion: 'Ing de Software'
+}
+
+function generarTexto(texto) {
+    const { nombre, edad, profesion} = texto;
+    return `${nombre} es un ${profesion} de ${edad} años`
+}
+
+console.log(generarTexto(texto1));
